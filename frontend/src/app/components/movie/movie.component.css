@@ -1,0 +1,20 @@
+.rating {
+  float: left;
+  width: 152px;
+  padding-top: 8px;
+}
+
+.movie-image {
+  width: 152px;
+  height: 214px;
+}
+
+.movie {
+  display: inline-block;
+}
+
+.movie-title {
+  float: left;
+  width: 152px;
+}
+

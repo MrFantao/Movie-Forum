@@ -1,0 +1,16 @@
+.movie {
+  display: flex;
+  align-items: center;
+}
+
+.movie-image {
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
+  margin-right: 30px;
+}
+
+.rating {
+  font-size: 2em;
+}
+

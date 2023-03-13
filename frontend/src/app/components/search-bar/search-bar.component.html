@@ -1,0 +1,8 @@
+<form (ngSubmit)="onSubmit()" [formGroup]="searchForm">
+  <mat-form-field>
+    <input formControlName="query" matInput placeholder="Search..." style="color: white; font-size: 15px" type="text">
+  </mat-form-field>
+  <button [disabled]="searchForm.invalid" mat-icon-button type="submit">
+    <img alt="Search" src="assets/images/search.png" style="width: 22px; height: 22px">
+  </button>
+</form>

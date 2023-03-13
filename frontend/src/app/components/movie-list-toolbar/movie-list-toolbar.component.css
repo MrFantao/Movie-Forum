@@ -1,0 +1,18 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  background-color: black;
+  height: 60px;
+}
+
+.toolbar-button {
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+.toolbar-button mat-icon {
+  margin-right: 8px;
+}
